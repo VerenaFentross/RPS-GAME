@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h4>welcome to</h4>
+      <h1 id="rocky">
+        Rock <span id="papery">Paper</span> <span id="scissory">Scissors</span>
+      </h1>
+    </header>
+    <section id="selectParameter">
+      <h4>How many rounds?</h4>
+      <form action="">
+        <input type="radio" name="roundChecker" value="5" id="5" />
+        <label for="5">5</label><br />
+        <input type="radio" name="roundChecker" value="10" id="10" />
+        <label for="10">10</label><br />
+        <input type="radio" name="roundChecker" value="15" id="15" />
+        <label for="15">15</label><br />
+        <input type="radio" name="roundChecker" value="20" id="20" />
+        <label for="20">20</label><br />
+      </form>
+    </section>
+    <section id="opponents">
+      <h3>USER</h3>
+      <div id="score">
+        <h3 id="userWin">0</h3>
+        <h3>:</h3>
+        <h3 id="compWin">0</h3>
+      </div>
+      <!-- <p>SKYNET</p> -->
+      <h3>SKYNET</h3>
+    </section>
+    <h3 id="comment">Wanna play a game?</h3>
+    <section id="commentary">
+      <div id="buttons">
+        <button id="rock">
+          <img src="./assets/img/roc.png" alt="" />
+        </button>
+        <button id="paper"><img src="./assets/img/pape.png" alt="" /></button>
+        <button id="scissors">
+          <img src="./assets/img/sciss.png" alt="" />
+        </button>
+      </div>
+      <p>choose your weapon!</p>
+    </section>
+    <a href="" id="resetGame">restart</a>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
